@@ -1,0 +1,13 @@
+{
+  "name": "example-pg-users",
+  "version": "1.0.0",
+  "description": "example storing user data in postgresql",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.4.1",
+    "secure-password": "^3.0.0"
+  }
+}
