@@ -1,7 +1,7 @@
 var securePassword = require('secure-password')
 var pg = require('pg')
 
-var db = new pg.Client('postgress://localhost/example_users')
+var db = new pg.Client('postgres://localhost/example_users')
 var pwd = securePassword()
 
 var examplePassword = Buffer.from('u donut no da wae')
